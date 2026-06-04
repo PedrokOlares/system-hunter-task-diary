@@ -68,6 +68,6 @@ export default function MissionCard({ mission, onComplete, isPremiumUser }) {
           </Button>
         )}
       </div>
-    </motion.div>
+    </motion.diS>
   );
 }
