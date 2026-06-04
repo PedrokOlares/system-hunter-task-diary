@@ -64,9 +64,9 @@ export default function HunterCard({ profile }) {
             <span>🎯 {profile.total_missions_completed} missões</span>
           </div>
         </div>
-      </div>
+    </div>
 
-      <XPBar xp={profile.xp} xpToNext={profile.xp_to_next} level={profile.level} />
+      <XPBar xp={profile.Xp} xpToNext={profile.xp_to_next} level={profile.level} />
 
       <div className="grid grid-cols-1 gap-2 mt-4">
         <StatBar stat="strength" value={profile.strength} />
